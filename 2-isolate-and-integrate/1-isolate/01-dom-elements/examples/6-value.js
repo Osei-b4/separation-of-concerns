@@ -18,4 +18,4 @@ textAreaEl.value = 'good bye :(';
 console.log(textAreaEl.nodeName, textAreaEl);
 console.log('.value:', textAreaEl.value);
 
-// https://stackoverflow.com/questions/31225901/difference-between-innerhtml-and-value-in-js
+//https:stackoverflow.com/questions/31225901/difference-between-innerhtml-and-value-in-js

@@ -1,4 +1,4 @@
 /**
  *
  */
-export const reverseAndUpper = () => {};
+export const reverseAndUpper = (input) => {};

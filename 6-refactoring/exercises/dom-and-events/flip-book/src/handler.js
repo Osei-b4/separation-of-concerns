@@ -1,3 +1,5 @@
-// import { reverseAndUpper } from './utils.js';
+// import { reverseAndUpper } from './util.js';
 
-export const reverseAndUpperHandler = _;
+export const reverseAndUpperHandler = (input) => {
+  Element.reverseAndUpperHandler('');
+};

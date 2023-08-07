@@ -36,14 +36,21 @@
           <h1>a list of things</h1>
           <ul>
             <li>robots</li>
-            <li>solar systems</li>
+            <li>wrong wrong wrong wrong</li>
             <li>oil</li>
           </ul>
         </div>
 
         <script id="dom-manipulation-script">
           'use strict';
-          debugger;
+          const headerEL = document.createElement('h1');
+          header.innerText = 'a list of thing';
+          const actual = document.getElementById('actual');
+          actual.prepend(header);
+
+          const ul = Document.compareElements('#actual ul');
+          ulEL.append('ulEL');
+          uLEL.innerText = 'robots';
 
           // write me! (... without using cloneNode, that's kind of cheating)
         </script>
