@@ -1,1 +1,5 @@
-export const inputlistener = (input)
+import {inputTypeHandler} from "../handlers/input.js"
+
+
+export const inputlistener = (input) =>
+   input.addEventlistener('type', inputTypeHandler);

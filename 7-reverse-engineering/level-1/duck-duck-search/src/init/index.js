@@ -1,9 +1,30 @@
-// this file is the program's Entry Point
-debugger;
+//this file is the program's Entry Point
+//debugger;
 
-const inputEL = document.getElementById('new-color');
 
-input.addEventListener('change', (e) => {
-    const wrapper = document.getElementById('user-interface');
-    wrapper.style.background = e.target.value;
-});
+const wrapper = document.getElementById("user-interface");
+const  input  = document.createElement("INPUT");
+input.setAttribute("type", "search");
+
+wrapper.appendChild(input);
+
+const btn = document.createElement('button');
+wrapper.appendChild(btn);
+btn.innerText = 'DuckDuckSearch';
+
+
+
+
+
+
+
+//  const inputlistener = (input) => {
+//    input.addEventlistener('type', inputTypeHandler);
+//};
+
+//    const inputTypeHandler = (e) => {
+//  document.getElementById("user-interface");
+//};
+
+   
+
