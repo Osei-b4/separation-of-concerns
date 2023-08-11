@@ -12,6 +12,22 @@ const btn = document.createElement('button');
 wrapper.appendChild(btn);
 btn.innerText = 'DuckDuckSearch';
 
+input.classList.add("input-field");
+input.setAttribute("id", "query");
+btn.setAttribute("id", "search-button");
+wrapper.classList.add("centered");
+ 
+ //select the value of the input
+ //open duck duck go and search the the text
+ //https://duckduckgo.com/?q=+&ia=web
+btn.addEventListener("click",() => { 
+    const cEL = input.value 
+    console.log(cEL);
+    window.open("https://duckduckgo.com/?q="+ cEL);
+   
+
+});
+
 
 
 

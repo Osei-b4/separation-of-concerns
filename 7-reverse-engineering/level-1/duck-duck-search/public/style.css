@@ -1,13 +1,10 @@
-<style>
-.color-selection {
-  text-align: center;
+.input-field {
+  width: 30vw;
+}
+
+.centered {
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.full-screen {
-  height: 100vh;
-  width: 100vw;
-}
-</style>
