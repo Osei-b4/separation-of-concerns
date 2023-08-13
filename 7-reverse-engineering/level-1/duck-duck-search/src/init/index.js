@@ -18,7 +18,7 @@ btn.setAttribute("id", "search-button");
 wrapper.classList.add("centered");
  
  //select the value of the input
- //open duck duck go and search the the text
+ //open duckduckgo and search the text
  //https://duckduckgo.com/?q=+&ia=web
 btn.addEventListener("click",openPage () => { 
     const cEL = input.value 
