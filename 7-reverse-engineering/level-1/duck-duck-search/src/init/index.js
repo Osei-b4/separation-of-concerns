@@ -1,6 +1,5 @@
 //this file is the program's Entry Point
-//debugger;
-
+debugger;
 
 const wrapper = document.getElementById("user-interface");
 const  input  = document.createElement("INPUT");
@@ -24,15 +23,7 @@ btn.addEventListener("click",openPage () => {
     const cEL = input.value 
     console.log(cEL);
     window.open("https://duckduckgo.com/?q="+ cEL);
-   
-
 });
-
-
-
-
-
-
 
 //  const inputlistener = (input) => {
 //    input.addEventlistener('type', inputTypeHandler);
@@ -41,6 +32,3 @@ btn.addEventListener("click",openPage () => {
 //    const inputTypeHandler = (e) => {
 //  document.getElementById("user-interface");
 //};
-
-   
-
