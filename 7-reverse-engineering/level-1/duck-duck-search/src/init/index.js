@@ -20,7 +20,7 @@ wrapper.classList.add("centered");
  //select the value of the input
  //open duck duck go and search the the text
  //https://duckduckgo.com/?q=+&ia=web
-btn.addEventListener("click",openPage () => { 
+btn.addEventListener("click", () => { 
     const cEL = input.value 
     console.log(cEL);
     window.open("https://duckduckgo.com/?q="+ cEL);
