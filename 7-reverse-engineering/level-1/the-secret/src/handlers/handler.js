@@ -1,9 +1,5 @@
 import { changeElementColor } from "./utils.js";
 
-
-
-
-
 export const turnBlack = (event) => {
     changeElementColor(event.target, 'black');
 };

@@ -1,29 +1,12 @@
-/* .hidden {
-  color: white;
-}
-
-.framed {
-  border: solid black 1px;
-}
-
-.centered {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-} */
-
-
-.container{
-  background-color: aqua;
-  width: 1vw;
-  height: 1vh;
+#container {
+  width: 100vw;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.centered-box{
+#centered-box {
   border: 1px solid black;
   width: fit-content;
 }
